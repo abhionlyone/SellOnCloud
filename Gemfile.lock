@@ -1,10 +1,17 @@
 GIT
-  remote: git://github.com/mongodb/mongoid.git
+  remote: https://github.com/mongodb/mongoid.git
   revision: 093d64ef14e38740fae2bf0ad293ea2b3db0bf6e
   specs:
     mongoid (6.0.2)
       activemodel (~> 5.0)
       mongo (~> 2.3)
+
+GIT
+  remote: https://github.com/monster-media/mongoid-enum.git
+  revision: 270323f3d71d837e04e55a0cae83b537722819b9
+  specs:
+    mongoid-enum (0.4.0)
+      mongoid (>= 6.0.0.beta)
 
 GEM
   remote: https://rubygems.org/
@@ -52,7 +59,6 @@ GEM
       railties (>= 3.0)
       sass (>= 3.2)
     bson (4.1.1)
-    bson_ext (1.5.1)
     builder (3.2.2)
     byebug (9.0.6)
     coffee-rails (4.2.1)
@@ -137,7 +143,7 @@ GEM
       ffi (>= 0.5.0)
     responders (2.3.0)
       railties (>= 4.2.0, < 5.1)
-    rspec-core (3.5.2)
+    rspec-core (3.5.4)
       rspec-support (~> 3.5.0)
     rspec-expectations (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -145,7 +151,7 @@ GEM
     rspec-mocks (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
-    rspec-rails (3.5.1)
+    rspec-rails (3.5.2)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       railties (>= 3.0)
@@ -199,7 +205,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-glyphicons
-  bson_ext
+  bson
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.2)
@@ -207,6 +213,7 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   mongoid!
+  mongoid-enum!
   puma (~> 3.0)
   rails (~> 5.0.0, >= 5.0.0.1)
   rspec-rails

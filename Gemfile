@@ -16,8 +16,9 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'mongoid', github: 'mongodb/mongoid'
-gem 'bson_ext'
+gem 'mongoid', git: 'https://github.com/mongodb/mongoid.git'
+gem 'bson'
+gem 'mongoid-enum', git: 'https://github.com/monster-media/mongoid-enum.git'
 gem 'devise', '~> 4.2'
 gem 'bootstrap-glyphicons'
 
