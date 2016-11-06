@@ -19,6 +19,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'mongoid', github: 'mongodb/mongoid'
 gem 'bson_ext'
 gem 'devise', '~> 4.2'
+gem 'bootstrap-glyphicons'
 
 group :development, :test do
   gem 'byebug', platform: :mri

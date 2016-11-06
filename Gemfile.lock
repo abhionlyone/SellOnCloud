@@ -48,6 +48,9 @@ GEM
       tzinfo (~> 1.1)
     arel (7.1.4)
     bcrypt (3.1.11)
+    bootstrap-glyphicons (0.0.1)
+      railties (>= 3.0)
+      sass (>= 3.2)
     bson (4.1.1)
     bson_ext (1.5.1)
     builder (3.2.2)
@@ -195,6 +198,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-glyphicons
   bson_ext
   byebug
   coffee-rails (~> 4.2)
