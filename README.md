@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Our aim is to provide a complete e-commerce solution for group of merchants. This project is still in very early stage of development,So,Please Keep an eye on this, You might find some interesting things soon..
 
-Things you may want to cover:
+Got any suggestions/feedback ? Mail me : abhilashmv[at]outlook[dot]com
 
-* Ruby version
+Thanks for Visiting..
 
-* System dependencies
+Our Stack:
 
-* Configuration
+* Ruby version - 2.3.1
 
-* Database creation
+* Rails Version - 5.0.0.1
 
-* Database initialization
+* MongoDb Version - 3.2.8
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
