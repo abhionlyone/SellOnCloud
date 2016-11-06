@@ -14,3 +14,7 @@ Our Stack:
 
 * MongoDb Version - 3.2.8
 
+
+## License
+
+SellOnCloud is released under the [MIT License](http://www.opensource.org/licenses/MIT).

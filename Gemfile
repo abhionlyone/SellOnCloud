@@ -18,9 +18,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'mongoid', github: 'mongodb/mongoid'
 gem 'bson_ext'
+gem 'devise', '~> 4.2'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'rspec-rails'
 end
 
 group :development do
