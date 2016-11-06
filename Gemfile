@@ -22,6 +22,7 @@ gem 'mongoid-enum', git: 'https://github.com/monster-media/mongoid-enum.git'
 gem 'devise', '~> 4.2'
 gem 'bootstrap-glyphicons'
 
+
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails'
